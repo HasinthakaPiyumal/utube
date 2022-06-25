@@ -3,19 +3,19 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = "2070291678:AAFn6SaTbUP9f3BXdjw16PiuhVNlOeKu9Lg"
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    SESSION_NAME = "YoutubeUpHasibot"
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = 10052403
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = "4e3763b6bbdd98f712a2e3b000defd11"
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = "924713315459-h1ed1fol5403ri6tpvhu6fl2ujc9nk08.apps.googleusercontent.com"
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = "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"
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = 1766930243
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
